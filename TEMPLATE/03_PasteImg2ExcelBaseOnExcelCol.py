@@ -4,7 +4,7 @@
 Author: gumpcpy gumpcpy@gmail.com
 Date: 2024-04-16 23:16:11
 LastEditors: gumpcpy gumpcpy@gmail.com
-LastEditTime: 2024-04-18 14:05:51
+LastEditTime: 2024-11-02 15:31:43
 Description: 
 
 version: v03
@@ -49,7 +49,7 @@ print("解析后的路径:", excel_file)
 if not os.path.exists(excel_file):
     print("Error: Excel不存在")
     exit()
-
+    
 # Make a copy of the original Excel file
 backup_excel_file = os.path.splitext(excel_file)[0] + "_backup.xlsx"
 shutil.copy2(excel_file, backup_excel_file)
